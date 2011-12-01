@@ -16,6 +16,9 @@
 		F6492AC41485CA89007B3FE5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6492AC21485CA89007B3FE5 /* MainStoryboard_iPhone.storyboard */; };
 		F6492AC71485CA89007B3FE5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6492AC51485CA89007B3FE5 /* MainStoryboard_iPad.storyboard */; };
 		F6492ACA1485CA89007B3FE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6492AC91485CA89007B3FE5 /* ViewController.m */; };
+		F6492AD11485CB38007B3FE5 /* 200235995-001.png in Resources */ = {isa = PBXBuildFile; fileRef = F6492AD01485CB38007B3FE5 /* 200235995-001.png */; };
+		F6E1946F14866D5600C0D360 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E1946D14866D5600C0D360 /* blueButton.png */; };
+		F6E1947014866D5600C0D360 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E1946E14866D5600C0D360 /* whiteButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,19 @@
 		F6492AB01485CA89007B3FE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F6492AB21485CA89007B3FE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F6492AB41485CA89007B3FE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F6492AB81485CA89007B3FE5 /* Control Fun-Info.plist */ = {isa = PBXFileReference; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
+		F6492AB81485CA89007B3FE5 /* Control Fun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Control Fun-Info.plist"; sourceTree = "<group>"; };
 		F6492ABA1485CA89007B3FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F6492ABC1485CA89007B3FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6492ABE1485CA89007B3FE5 /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
-		F6492ABF1485CA89007B3FE5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		F6492ABE1485CA89007B3FE5 /* Control Fun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Control Fun-Prefix.pch"; sourceTree = "<group>"; };
+		F6492ABF1485CA89007B3FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F6492AC01485CA89007B3FE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F6492AC31485CA89007B3FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		F6492AC61485CA89007B3FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		F6492AC81485CA89007B3FE5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		F6492AC81485CA89007B3FE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F6492AC91485CA89007B3FE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F6492AD01485CB38007B3FE5 /* 200235995-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "200235995-001.png"; path = "../../../../../Applications/Microsoft Office 2011/Office/Media/Clipart/ Business.localized/200235995-001.png"; sourceTree = "<group>"; };
+		F6E1946D14866D5600C0D360 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueButton.png; path = ../../../Downloads/UICatalog/images/blueButton.png; sourceTree = "<group>"; };
+		F6E1946E14866D5600C0D360 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteButton.png; path = ../../../Downloads/UICatalog/images/whiteButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,9 @@
 		F6492AB71485CA89007B3FE5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6492AD01485CB38007B3FE5 /* 200235995-001.png */,
+				F6E1946D14866D5600C0D360 /* blueButton.png */,
+				F6E1946E14866D5600C0D360 /* whiteButton.png */,
 				F6492AB81485CA89007B3FE5 /* Control Fun-Info.plist */,
 				F6492AB91485CA89007B3FE5 /* InfoPlist.strings */,
 				F6492ABC1485CA89007B3FE5 /* main.m */,
@@ -154,6 +163,9 @@
 				F6492ABB1485CA89007B3FE5 /* InfoPlist.strings in Resources */,
 				F6492AC41485CA89007B3FE5 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F6492AC71485CA89007B3FE5 /* MainStoryboard_iPad.storyboard in Resources */,
+				F6492AD11485CB38007B3FE5 /* 200235995-001.png in Resources */,
+				F6E1946F14866D5600C0D360 /* blueButton.png in Resources */,
+				F6E1947014866D5600C0D360 /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +298,7 @@
 				F6492ACF1485CA89007B3FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
